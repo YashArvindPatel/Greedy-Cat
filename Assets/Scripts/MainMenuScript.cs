@@ -9,6 +9,7 @@ public class MainMenuScript : MonoBehaviour
     public TextMeshProUGUI bestScore;
     public AudioClip clickSound;
     public bool vibrate = true;
+    public GameObject menuText;
 
     private void OnEnable()
     {
